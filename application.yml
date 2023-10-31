@@ -11,3 +11,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://SECURITY/api/security/test
+  customer:
+    endpoints:
+      endpoint:
+        uri: http://CUSTOMER/api/security/test
