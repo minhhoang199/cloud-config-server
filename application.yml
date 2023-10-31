@@ -5,3 +5,9 @@ eureka:
     enabled: true
   instance:
     hostname: localhost
+
+microservice:
+  security:
+    endpoints:
+      endpoint:
+        uri: http://SECURITY/api/security/test
